@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二手衣物</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+    <header>
+        <div class="brand">
+            <h1><a href="#">二手衣物</a></h1>
+        </div>
+        <nav class="main-nav">
+            <a href="women.html">女裝</a>
+            <a href="men.html">男裝</a>
+            <a href="child.html">童裝</a>
+            <a href="sell.html">我要轉售二手衣</a>
+        </nav>
+        <div class="search-wrap">
+            <div class="search">
+                <input class="search-bar" type="text" name="search" id="search" placeholder="輸入名稱">
+                <button class="search-btn"><img src="image/magnifying-glass.png" alt="Search"></button>
+            </div>
+        </div>
+        <div class="user-actions">
+            <a href="user.html"><img src="C:\Users\xli49\Desktop\final project\final project\image\user-circle.png" alt="User"></a>
+            <a href="cart.html"><img src="C:\Users\xli49\Desktop\final project\final project\image\shopping-cart.png" alt="Cart"></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="product-container">
+            <div class="product-info">
+                <h1>REDYAZEL/針織毛衣</h1>
+                <p>這款毛衣採用優質棉質，舒適透氣，適合日常休閒穿著。</p>
+                <h3><strong>價格：</strong>$29.99</h3>
+            </div>
+            <div class="product-image">
+                <img src="image/women01.jpg" alt="時尚休閒T恤">
+            </div>
+            <div class="item1">
+                <input type="button" value="-" class="item_button" onclick="minus(0)">
+                <input type="text" value="1"  class="item_num">
+                <input type="button" value="+" class="item_button" onclick="add(0)">
+            </div>
+        </div>
+    
+        <div class="reviews-container">
+            <h2>商品評論</h2>
+            <div class="user-review">
+                <h3>使用者A</h3>
+                <p>這件T恤非常舒適，顏色也很漂亮，物超所值。</p>
+            </div>
+                <h3>使用者B</h3>
+                <p>尺寸剛剛好，質感不錯，會推薦給朋友。</p>
+            </div>
+            <!-- 其他評論... -->
+        </div>
+    </main>
+
+    <footer>
+        <p>@版權為####所有</p>
+    </footer>
+
+</body>
+</html>

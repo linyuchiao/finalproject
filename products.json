@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "REDYAZEL/針織毛衣",
+        "price": 1200,
+        "image": "image/women01.jpg"
+    },
+    {
+        "id": 2,
+        "name": "To b. by agnes b/短袖上衣",
+        "price": 1000,
+        "image": "image/women02.jpg"
+    },
+    {
+        "id": 3,
+        "name": "BURBERRY LONDON/T恤/M",
+        "price": 3500,
+        "image": "image/women03.jpg"
+    },
+    {
+        "id": 4,
+        "name": "LYLE&SCOTT/外套/S",
+        "price": 1800,
+        "image": "image/women04.jpg"
+    }
+]
